@@ -146,7 +146,7 @@ let oUs = [];
 
 let loader = new THREE.STLLoader();
 
-loader.load("/fish.stl", objGeom => {
+loader.load("https://cywarr.github.io/small-shop/fish.stl", objGeom => {
     console.log(objGeom);
 
     objGeom.name = 'fish'; 
